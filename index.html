@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Лабораторная 20</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <style>
+      *{
+          color:rgb(9, 156, 21);
+          font-family: 'Courier New', Courier, monospace;
+      }
+      .class1{
+        border: 6px double rgb(28, 91, 207);
+        border-radius: 40px;
+        width: 80%;
+      }
+      .class2{
+        border: 6px double rgb(231, 164, 39);
+        border-radius: 20px;
+        width: 40%;
+        background-color: rgb(49, 46, 46);
+      }
+      .class3{
+        border: 6px double rgb(199, 24, 24);
+        border-radius: 20px;
+        width: 80%;
+        background-color: rgb(49, 46, 46);
+      }
+      P{
+          display: inline-block;
+      }
+      .warning{
+        border: 2px double black;
+      }
+  </style>
+</head>
+<body><center>
+<div class="class1">
+    <h1>Задание 1</h1>
+    <figure><img src="исходник для Dom схемы.png"><figcapture><br>Исходный код</figcapture></figure>
+    <figure><img src="Dom схема.png"><figcapture><br>Dom схема для исходного кода сверху</figcapture></figure>
+</div><br><br>
+    <div class="class2">
+        <h1>Задание 2</h1>
+        <p class="p">После нажатия кнопки текст изменится</p>
+        <button onclick="myFunction()">Нажать для изменения</button>
+    </div><br><br>
+    <div class="class3">
+        <h1>Задание 3</h1>
+        <h2>Элементы(цифры) поменяют цвет своего фона, а элементы(буквы) - исчезнут.</h2>
+        <p class="warning">e</p>
+        <p class="warning">-123</p>
+        <p class="warning">228</p>
+        <p class="warning">1111111111111111111</p>
+        <p class="warning">/5/</p>
+        <p class="warning">[0]</p><br>
+        <p class=".warning">Привет</p>
+        <p class=".warning">how</p>
+        <p class=".warning">low</p>
+        <p class=".warning">xxxxxxx</p>
+        <p class=".warning">zzzzzzzzzzzzzzzzzzzzzzzzzz</p><br>
+        <button onclick="Function2()">Нажать для изменения цвета фона</button>
+        <button onclick="Function1()">Исчезновения букв</button>
+    </div>
+</center></body>
+</html>
